@@ -1,5 +1,5 @@
 {
-  "name": "serverless-kms-secrets",
+  "name": "serverless-kms",
   "version": "0.9.5",
   "engines": {
     "node": ">=4.0"
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SC5/serverless-kms-secrets.git"
+    "url": "git+https://bitbucket.org/DelhiveryTech/serverless-kms.git"
   },
   "keywords": [
     "serverless framework plugin",
@@ -52,9 +52,9 @@
     "yamljs": "^0.2.10"
   },
   "bugs": {
-    "url": "https://github.com/SC5/serverless-kms-secrets/issues"
+    "url": "https://bitbucket.org/DelhiveryTech/serverless-kms/issues"
   },
-  "homepage": "https://github.com/SC5/serverless-kms-secrets#readme",
+  "homepage": "https://bitbucket.org/DelhiveryTech/serverless-kms/overview",
   "directories": {
     "test": "test"
   }
