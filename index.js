@@ -105,7 +105,7 @@ class kmsSecretsPlugin {
       let kmsSecrets = {
         secrets: {}
       };
-      let keyId = this.options.keyid;
+      let keyId = this.options.keyid || moduleConfig.keyId;
 
       if (fse.existsSync(configFile)) {
         kmsSecrets = yaml.load(configFile)
